@@ -8,6 +8,14 @@ body{
 
 }
 
+/* shared styles */
+.heading-text{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+/* banner-section */
 .banner-section{
     max-width: 1440px;
     height: 652px;
@@ -35,26 +43,50 @@ font-weight: 800;
     border-radius: 8px;
 }
 
-
+/* why-dev-section */
 .why-dev-section{
-    max-width: 1440px;
-    height: 1500px;
+    max-width: 1140px;
+    height: 1395px;
+    margin: 74px 150px 0px 150px;
     border: 2px solid red;
 }
+
+
+/* inspiration-section */
+.inspiration-section{
+    max-width:1140px;
+    height: 577px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 88px 152px 111px 88px; */
+    margin: 88px 150px 111px 150px;
+
+
+    border: 2px solid red;
+}
+
 
 
 
 /* current-target-section */
 .current-target-section{
-    width: 1140px;
+    max-width: 1140px;
     height: 463px;
-    margin: 150px 150px 111px 150px;
+    margin: 0px 150px 111px 150px;
+    padding-top: 0px;
     border: 2px solid red;
 }
 
-.current-target-heading{
+.heading-section{
     text-align: center;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
+
+}
+
+.heading-section p{
+    padding: 0px 144px 28px 144px;
 }
 
 .targets{
@@ -93,16 +125,13 @@ font-weight: 800;
     background-size: cover;
     border-radius: 16px;
     color: #FFFFFF;
-    width: 1140px;
+    max-width: 1140px;
     height: 314px;
 
     border: 2px solid red;
 }
 
-.support-section h3{
-    font-size: 32px;
-    font-weight: 700;
-}
+
 
 
 .support-section input{
