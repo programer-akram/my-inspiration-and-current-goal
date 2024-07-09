@@ -117,6 +117,8 @@ font-weight: 800;
 
 .target{
     padding: 40px;
+    border-radius: 16px;
+
 }
 
 #bg-html{
