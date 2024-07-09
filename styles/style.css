@@ -45,6 +45,50 @@ font-weight: 800;
 
 
 
+/* support-section */
+.support-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 150px 79px 150px;
+    padding: 64px 48px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    color: #FFFFFF;
+    width: 1044px;
+    height: 186px;
+}
+
+.support-section h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-section input{
+    width: 548px;
+    height: 57px;
+    text-align: center start;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+
+.support-section button{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+}
+
+
+/* current-target-section */
+/* .current-target-section{
+
+} */
+
+
+
 
 
 
