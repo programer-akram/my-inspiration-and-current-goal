@@ -37,12 +37,47 @@ font-weight: 800;
 
 
 .why-dev-section{
-    width: 1440px;
+    max-width: 1440px;
     height: 1500px;
     border: 2px solid red;
 }
 
 
+
+/* current-target-section */
+.current-target-section{
+    width: 1140px;
+    height: 463px;
+    margin: 150px 150px 111px 150px;
+    border: 2px solid red;
+}
+
+.current-target-heading{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.targets{
+    display: flex;
+    gap: 24px;
+
+}
+
+.target{
+    padding: 40px;
+}
+
+#bg-html{
+    background-color: #FF4C1E0D;
+}
+
+#bg-css{
+    background-color: #004CE80D;
+}
+
+#bg-js{
+    background-color: #FFDF000D;
+}
 
 
 /* support-section */
@@ -58,14 +93,17 @@ font-weight: 800;
     background-size: cover;
     border-radius: 16px;
     color: #FFFFFF;
-    width: 1044px;
-    height: 186px;
+    width: 1140px;
+    height: 314px;
+
+    border: 2px solid red;
 }
 
 .support-section h3{
     font-size: 32px;
     font-weight: 700;
 }
+
 
 .support-section input{
     width: 548px;
@@ -80,12 +118,6 @@ font-weight: 800;
     height: 58px;
     border-radius: 8px;
 }
-
-
-/* current-target-section */
-/* .current-target-section{
-
-} */
 
 
 
